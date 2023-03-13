@@ -12,9 +12,9 @@ public class Main {
         // that data type limit possible set of allowed values
         // int - integer numbers
 
-       int myDaughterAge = 45;
-       // assigning a new value to variable
-       myDaughterAge = 67;
+        int myDaughterAge = 45;
+        // assigning a new value to variable
+        myDaughterAge = 67;
 // sout + enter
         System.out.println(myDaughterAge);
         // use camel case starting with lower letter
@@ -24,7 +24,7 @@ public class Main {
 
         String five = "5";
         String otherFive = "5";
-        System.out.println(five+otherFive);
+        System.out.println(five + otherFive);
 
         // true and false
         boolean trueValue = true;
@@ -46,13 +46,13 @@ public class Main {
         int product = 5 * 8;
         System.out.println("Product of 5 and 8 is: " + product);
 
-        double quotient = 5.0/8.5;
+        double quotient = 5.0 / 8.5;
         System.out.println("Quotient of 5.0 and 8.5 is: " + quotient);
 
         System.out.println("Reminder");
-        int result = 9/4;
+        int result = 9 / 4;
         System.out.println("result is: " + result);
-        result = 9%4;
+        result = 9 % 4;
         System.out.println("and now result is: " + result);
     }
 }
