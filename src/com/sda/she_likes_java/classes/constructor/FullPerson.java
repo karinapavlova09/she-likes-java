@@ -28,9 +28,22 @@ public class FullPerson {
                 '}';
     }
 
+    public void describeYourself (){
+        System.out.println("Hi, I am " + name);
+    }
+   public static void genericDescription(){
+       System.out.println("Generic description");
+   }
+
+
     public static void main(String[] args) {
         FullAddress address = new FullAddress("Italy", "Roma", "Unknown street","0879");
         FullPerson person = new FullPerson("Karina", "Pavlova", 25, address);
         System.out.println("Person is :" + person);
+
+        person.describeYourself();
+
+        FullPerson personWithoutAddress = new FullPerson("Maria","Kowalska",18,null);
+        personWithoutAddress.describeYourself();
     }
 }
