@@ -25,5 +25,17 @@ public class HouseExample {
 
         System.out.println("Mary" + wife);
         System.out.println("Jack" + husband);
+
+        myHouse = new House (1,1);
+        System.out.println("Now myHouse reference: " + myHouse);
+
+        System.out.println("Mary" + wife);
+        System.out.println("Jack" + husband);
+
+        myHouse = new House (10, 10);
+        wife.setHouse(myHouse);
+        System.out.println("Mary: " + wife);
+        System.out.println("Jack: " + husband);
+        wife.setHouse(husband.getHouse());
     }
 }
