@@ -44,4 +44,7 @@ public class WashMachine {
     public String getModel() {
         return model;
     }
+    public void increaseSerialnumber () {
+        serialNumber++;
+    }
 }
