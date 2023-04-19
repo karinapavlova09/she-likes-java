@@ -23,6 +23,9 @@ private int yPosition;
                 """;
 
     }
+    private void doInternalTweaks (){
+        System.out.println("very important stuff");
+    }
     public void moveForward(){
         xPosition++;
         System.out.println("I'm moving forward");
