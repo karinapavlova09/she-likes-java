@@ -20,6 +20,7 @@ public class Main {
        Animal animalCat = new Cat ();
        Cat thirdCat = new Cat ();
     }
+
     public static void callAnimal (Animal animal){
         animal.makeSound();
     }
